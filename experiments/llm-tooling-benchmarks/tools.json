@@ -1,0 +1,752 @@
+[
+  {
+    "name": "oem_model_launch_calendar",
+    "description": "Lists upcoming model launches by region.",
+    "prompt": "Show 2026 model launch dates for EU and NA."
+  },
+  {
+    "name": "oem_bom_lookup",
+    "description": "Retrieves bill of materials for a trim.",
+    "prompt": "Fetch BOM for 2025 Civic EX 2.0L AT."
+  },
+  {
+    "name": "oem_plant_capacity_status",
+    "description": "Shows plant line capacity and utilization.",
+    "prompt": "Show current utilization and remaining capacity for Line A, Plant Brno, today."
+  },
+  {
+    "name": "oem_price_book_update",
+    "description": "Updates MSRP and dealer invoice prices.",
+    "prompt": "Update MSRP +2% and dealer invoice +1% for 2025 Tucson EU lineup."
+  },
+  {
+    "name": "oem_color_mix_forecast",
+    "description": "Forecasts paint color mix by market.",
+    "prompt": "Forecast Q1 color mix for DE market C-SUV."
+  },
+  {
+    "name": "dms_lead_assignment",
+    "description": "Assigns sales leads to dealer reps.",
+    "prompt": "Assign web leads to Anna Novák at Dealer BRQ-12."
+  },
+  {
+    "name": "dms_test_drive_scheduler",
+    "description": "Books customer test drives.",
+    "prompt": "Book a test drive for Škoda Enyaq on Nov 12, 10:00."
+  },
+  {
+    "name": "dms_accessory_quote_builder",
+    "description": "Creates accessory quotes.",
+    "prompt": "Create quote for rubber mats and tow bar for VIN TMB...123."
+  },
+  {
+    "name": "dms_trade_in_valuation",
+    "description": "Estimates trade-in value.",
+    "prompt": "Estimate trade-in for 2017 Octavia 1.6 TDI, 145k km."
+  },
+  {
+    "name": "dms_delivery_checklist",
+    "description": "Generates vehicle delivery checklist.",
+    "prompt": "Create delivery checklist for order #BRQ-55271."
+  },
+  {
+    "name": "vin_decode_spec",
+    "description": "Decodes VIN to full spec and options.",
+    "prompt": "Decode VIN WF0AXXWPMAJS12345 and list options."
+  },
+  {
+    "name": "vin_repair_history",
+    "description": "Shows service and repair history.",
+    "prompt": "Show repair history for VIN WDD...987 since 2022."
+  },
+  {
+    "name": "vin_warranty_status",
+    "description": "Checks warranty start/end and coverages.",
+    "prompt": "Check warranty status for VIN SAL...331."
+  },
+  {
+    "name": "vin_recall_check",
+    "description": "Checks open recalls for a VIN.",
+    "prompt": "List open recalls for VIN JMZ...456."
+  },
+  {
+    "name": "vin_parts_compatibility",
+    "description": "Confirms parts fitment by VIN.",
+    "prompt": "Is part 8K0-615-301B compatible with VIN WAU...210?"
+  },
+  {
+    "name": "svc_maintenance_plan",
+    "description": "Builds maintenance plan by mileage.",
+    "prompt": "Generate 120,000 km service plan for VIN VF3...101."
+  },
+  {
+    "name": "svc_ro_create",
+    "description": "Creates a service repair order.",
+    "prompt": "Open RO for brake pulsation and oil change for VIN ZFA...777."
+  },
+  {
+    "name": "svc_shop_load_view",
+    "description": "Displays shop bay load and wait time.",
+    "prompt": "Show today’s bay load and ETA for BRQ service center."
+  },
+  {
+    "name": "svc_loaner_allocation",
+    "description": "Allocates loaner vehicles to ROs.",
+    "prompt": "Assign loaner EV-03 to RO #RO-11822, due Friday."
+  },
+  {
+    "name": "svc_customer_status_sms",
+    "description": "Sends repair status SMS updates.",
+    "prompt": "Text customer of RO #RO-11822: parts arrive tomorrow, ETA Thu."
+  },
+  {
+    "name": "parts_stock_alert",
+    "description": "Alerts on low stock parts.",
+    "prompt": "Alert when 06K-905-601D drops below 10 units."
+  },
+  {
+    "name": "parts_backorder_eta",
+    "description": "Gets backorder ETAs from suppliers.",
+    "prompt": "Get ETA for backordered 5Q0-615-301K."
+  },
+  {
+    "name": "parts_bin_location_lookup",
+    "description": "Finds part bin location in store.",
+    "prompt": "Where is 1K0-615-161C stored in BRQ warehouse?"
+  },
+  {
+    "name": "parts_kit_builder",
+    "description": "Builds service kits from components.",
+    "prompt": "Create timing belt kit for 2.0 TDI EA189."
+  },
+  {
+    "name": "parts_return_rma_create",
+    "description": "Creates RMA for part returns.",
+    "prompt": "Open RMA for defective 4H0-698-451F, qty 2."
+  },
+  {
+    "name": "recall_campaign_overview",
+    "description": "Summarizes recall scope and fix.",
+    "prompt": "Summarize Recall 24V1—affected models, remedy, time."
+  },
+  {
+    "name": "recall_owner_contact",
+    "description": "Generates owner contact lists.",
+    "prompt": "List EU owners for Recall 91AF within 100 km of Brno."
+  },
+  {
+    "name": "recall_appointment_book",
+    "description": "Books recall fix appointments.",
+    "prompt": "Schedule recall 93E8 fix for VIN TRU...662 on Nov 14."
+  },
+  {
+    "name": "recall_completion_report",
+    "description": "Reports recall completion rates.",
+    "prompt": "Report completion for campaign 24V1, CZ region, week 45."
+  },
+  {
+    "name": "recall_parts_allocation",
+    "description": "Allocates recall parts by VIN mix.",
+    "prompt": "Allocate 200 airbag inflators to BRQ per VIN demand."
+  },
+  {
+    "name": "warranty_claim_submit",
+    "description": "Submits warranty claim with labor ops.",
+    "prompt": "Submit claim op 10-45, part 06L-109-467, VIN WAU...210."
+  },
+  {
+    "name": "warranty_policy_check",
+    "description": "Checks policy/extended coverage rules.",
+    "prompt": "Does corrosion warranty cover trunk lid on VIN WVG...555?"
+  },
+  {
+    "name": "warranty_goodwill_request",
+    "description": "Creates goodwill request case.",
+    "prompt": "Request 50% goodwill for failed MIB unit, VIN WVW...812."
+  },
+  {
+    "name": "warranty_labor_time_lookup",
+    "description": "Finds standard labor times.",
+    "prompt": "Labor time for clutch replacement 2.0 TSI MQ350?"
+  },
+  {
+    "name": "warranty_audit_log",
+    "description": "Shows claim audit and decisions.",
+    "prompt": "Show last 10 audits for BRQ dealership claims."
+  },
+  {
+    "name": "telem_trip_history",
+    "description": "Lists trips with distance and eco score.",
+    "prompt": "Show last 30 trips for fleet car FLE-009."
+  },
+  {
+    "name": "telem_live_vehicle_status",
+    "description": "Shows live SOC, range, tire, doors.",
+    "prompt": "Live status for VIN LRW...889: SOC, range, tires."
+  },
+  {
+    "name": "telem_alert_rules_set",
+    "description": "Sets geofence/speed alerts.",
+    "prompt": "Alert if car exits zone Brno-City or over 130 km/h."
+  },
+  {
+    "name": "telem_driver_behavior_score",
+    "description": "Computes driver behavior score.",
+    "prompt": "Score driver for harsh braking/accel in last 7 days."
+  },
+  {
+    "name": "telem_data_export",
+    "description": "Exports telematics data securely.",
+    "prompt": "Export 90 days of GPX for fleet group Sales-EU."
+  },
+  {
+    "name": "ev_charge_schedule",
+    "description": "Schedules off-peak charging.",
+    "prompt": "Charge VIN VF1...222 to 80% by 6:30 tomorrow, cheap tariff."
+  },
+  {
+    "name": "ev_battery_health_report",
+    "description": "Shows SOH and cycle stats.",
+    "prompt": "Report battery SOH and fast-charge count for VIN TM3...114."
+  },
+  {
+    "name": "ev_preconditioning_set",
+    "description": "Sets cabin and battery preheat.",
+    "prompt": "Precondition cabin to 21°C at 7:45 for VIN WBY...033."
+  },
+  {
+    "name": "ev_route_with_chargers",
+    "description": "Plans route including chargers.",
+    "prompt": "Plan Brno→Split with 20% buffer using CCS fast chargers."
+  },
+  {
+    "name": "ev_tariff_optimizer",
+    "description": "Optimizes charge vs tariff curve.",
+    "prompt": "Optimize charging this week using E.ON night tariff."
+  },
+  {
+    "name": "adas_calibration_tracker",
+    "description": "Tracks ADAS calibration status.",
+    "prompt": "Show camera calibration status after windshield swap VIN JTD...901."
+  },
+  {
+    "name": "adas_fault_reader",
+    "description": "Reads ADAS DTCs and states.",
+    "prompt": "Read ADAS faults for VIN ZAA...551 and summarize severity."
+  },
+  {
+    "name": "adas_feature_toggle",
+    "description": "Enables/disables ADAS features.",
+    "prompt": "Disable lane assist during dyno test for VIN WAU...330."
+  },
+  {
+    "name": "adas_swdl_version_check",
+    "description": "Checks ADAS software versions.",
+    "prompt": "List radar SW versions vs latest for VIN SJN...778."
+  },
+  {
+    "name": "adas_field_performance",
+    "description": "Analyzes ADAS field events.",
+    "prompt": "Analyze AEB near-miss events in CZ Q3 fleet."
+  },
+  {
+    "name": "qc_end_of_line_report",
+    "description": "Shows EOL test pass/fail stats.",
+    "prompt": "Report EOL fails by station for Plant Ostrava Week 45."
+  },
+  {
+    "name": "qc_defect_trend",
+    "description": "Trends defects by root cause.",
+    "prompt": "Trend paint orange-peel defects last 8 weeks."
+  },
+  {
+    "name": "qc_ppap_document_pack",
+    "description": "Builds PPAP pack for part.",
+    "prompt": "Create PPAP for supplier ABC bracket rev C."
+  },
+  {
+    "name": "qc_rework_instruction",
+    "description": "Issues rework instructions.",
+    "prompt": "Issue rework steps for seat stitching variance L2."
+  },
+  {
+    "name": "qc_supplier_scorecard",
+    "description": "Generates supplier quality score.",
+    "prompt": "Score supplier XYZ for PPM and OTD in Q3."
+  },
+  {
+    "name": "mfg_line_changeover_plan",
+    "description": "Plans line changeovers quickly.",
+    "prompt": "Plan Line 2 changeover from hatch to wagon, 2h window."
+  },
+  {
+    "name": "mfg_takt_time_sim",
+    "description": "Simulates takt and throughput.",
+    "prompt": "Simulate takt 58s vs 62s impact on daily output."
+  },
+  {
+    "name": "mfg_downtime_rootcause",
+    "description": "Finds downtime root causes.",
+    "prompt": "Analyze last 24h downtime on Body Shop Zone 3."
+  },
+  {
+    "name": "mfg_scrap_cost_report",
+    "description": "Calculates scrap cost by cell.",
+    "prompt": "Report scrap cost for Trim Cell B, Oct."
+  },
+  {
+    "name": "mfg_andon_alert",
+    "description": "Creates Andon escalation.",
+    "prompt": "Raise Andon Level 2 for torque station drift."
+  },
+  {
+    "name": "supply_eta_tracker",
+    "description": "Tracks inbound material ETAs.",
+    "prompt": "Show ETAs for seats lot SEAT-25-1107 to Plant Brno."
+  },
+  {
+    "name": "supply_alternative_source",
+    "description": "Finds alt suppliers for parts.",
+    "prompt": "Find alternative for MCU chip NXP S32K shortage."
+  },
+  {
+    "name": "supply_safety_stock_calc",
+    "description": "Calculates safety stock levels.",
+    "prompt": "Compute safety stock for rotor 1234, demand CV 0.35."
+  },
+  {
+    "name": "supply_container_util",
+    "description": "Optimizes container loading.",
+    "prompt": "Optimize container load for 300 bumpers to CZ."
+  },
+  {
+    "name": "supply_incoterms_checker",
+    "description": "Checks Incoterms compliance.",
+    "prompt": "Validate FCA vs DAP terms for supplier Z."
+  },
+  {
+    "name": "fleet_utilization_report",
+    "description": "Shows fleet utilization KPIs.",
+    "prompt": "Report utilization of pool cars BRQ week 44."
+  },
+  {
+    "name": "fleet_maintenance_scheduler",
+    "description": "Schedules fleet maintenance.",
+    "prompt": "Schedule PM for FLE-012 at 90,000 km next Monday."
+  },
+  {
+    "name": "fleet_fuel_card_audit",
+    "description": "Audits fuel card anomalies.",
+    "prompt": "Audit fuel card anomalies for driver ID 2281."
+  },
+  {
+    "name": "fleet_inspection_checklist",
+    "description": "Creates daily inspection forms.",
+    "prompt": "Generate daily checklist for vans group D."
+  },
+  {
+    "name": "fleet_decommission_flow",
+    "description": "Guides vehicle decommission.",
+    "prompt": "Start decommission of FLE-021 and archive telematics."
+  },
+  {
+    "name": "logistics_route_optimizer",
+    "description": "Optimizes delivery routes.",
+    "prompt": "Optimize bumper deliveries BRQ→PLZ with time windows."
+  },
+  {
+    "name": "logistics_slot_booking",
+    "description": "Books warehouse time slots.",
+    "prompt": "Book inbound slot Thu 14:00 for carrier DHL truck 2."
+  },
+  {
+    "name": "logistics_pod_capture",
+    "description": "Captures proof of delivery.",
+    "prompt": "Attach PoD for shipment SHP-88219, drop 3."
+  },
+  {
+    "name": "logistics_tms_status",
+    "description": "Shows TMS shipment status.",
+    "prompt": "Status of SHP-88219 and delay reasons."
+  },
+  {
+    "name": "logistics_co2_reporting",
+    "description": "Reports transport CO₂.",
+    "prompt": "Report Q3 CO₂ for outbound road EU lanes."
+  },
+  {
+    "name": "sales_order_pipeline",
+    "description": "Shows retail and fleet pipeline.",
+    "prompt": "Show pipeline for C-segment EV in CZ, Nov–Dec."
+  },
+  {
+    "name": "sales_price_override_approval",
+    "description": "Approves price overrides.",
+    "prompt": "Approve 1.5% discount override for deal #DL-7710."
+  },
+  {
+    "name": "sales_incentive_calc",
+    "description": "Calculates dealer incentives.",
+    "prompt": "Calculate Q4 unit bonuses for Dealer BRQ-12."
+  },
+  {
+    "name": "sales_allocation_plan",
+    "description": "Allocates units to dealers.",
+    "prompt": "Allocate 60 Enyaq units to CZ dealers by turn rate."
+  },
+  {
+    "name": "sales_demo_fleet_plan",
+    "description": "Plans demo car fleet mix.",
+    "prompt": "Plan 12 demo cars for Prague metro showrooms."
+  },
+  {
+    "name": "finance_lease_quote",
+    "description": "Builds lease/balloon quotes.",
+    "prompt": "Quote 36m lease, 10% down, 15,000 km/yr, Kodiaq."
+  },
+  {
+    "name": "finance_credit_check",
+    "description": "Runs soft credit checks.",
+    "prompt": "Run soft check for applicant Jan Novak, CZ."
+  },
+  {
+    "name": "finance_residual_update",
+    "description": "Updates residual value tables.",
+    "prompt": "Update residuals +1 pt for BEV C-SUV, 36m."
+  },
+  {
+    "name": "finance_rate_sheet_publish",
+    "description": "Publishes new rate sheets.",
+    "prompt": "Publish November finance rates to DMS network."
+  },
+  {
+    "name": "finance_payoff_amount",
+    "description": "Calculates payoff amount.",
+    "prompt": "Calculate payoff for contract FIN-009811 on Nov 30."
+  },
+  {
+    "name": "insure_claim_intake",
+    "description": "Intakes insurance claims.",
+    "prompt": "Open claim for rear bumper damage VIN VSS...444."
+  },
+  {
+    "name": "insure_repair_estimate",
+    "description": "Generates repair estimates.",
+    "prompt": "Estimate parts+labor for hail damage VIN WAU...998."
+  },
+  {
+    "name": "insure_rental_authorization",
+    "description": "Authorizes rental coverage.",
+    "prompt": "Authorize 5-day rental for claim CLM-7712."
+  },
+  {
+    "name": "insure_photoset_request",
+    "description": "Requests photo documentation.",
+    "prompt": "Request 6-photo set and dashcam clip from policy #CZ-22."
+  },
+  {
+    "name": "insure_subrogation_status",
+    "description": "Checks subrogation progress.",
+    "prompt": "Status of subrogation vs carrier ABC for CLM-6601."
+  },
+  {
+    "name": "rental_reservation_create",
+    "description": "Creates rental reservation.",
+    "prompt": "Reserve compact EV at BRQ airport 12–15 Nov, 09:00."
+  },
+  {
+    "name": "rental_damage_checkout",
+    "description": "Logs checkout condition.",
+    "prompt": "Record checkout photos for contract RN-55319."
+  },
+  {
+    "name": "rental_extend_contract",
+    "description": "Extends rental period.",
+    "prompt": "Extend RN-55319 by 2 days, return Sun 18:00."
+  },
+  {
+    "name": "rental_invoice_generate",
+    "description": "Generates rental invoice.",
+    "prompt": "Generate invoice for RN-55319 with tolls added."
+  },
+  {
+    "name": "rental_fleet_rotation",
+    "description": "Plans rotation by mileage.",
+    "prompt": "Rotate high-mileage cars from BRQ to PRG depot."
+  },
+  {
+    "name": "charge_station_availability",
+    "description": "Lists nearby charger status.",
+    "prompt": "Show CCS stations within 30 km, availability now."
+  },
+  {
+    "name": "charge_session_start",
+    "description": "Starts a public charge session.",
+    "prompt": "Start charge at station EVN-BRQ-07 for RFID 1022."
+  },
+  {
+    "name": "charge_session_export",
+    "description": "Exports session receipts.",
+    "prompt": "Export last month’s charge receipts for VIN YT9...313."
+  },
+  {
+    "name": "charge_roaming_price_check",
+    "description": "Checks roaming prices.",
+    "prompt": "Compare kWh price at Ionity vs CEZ for today."
+  },
+  {
+    "name": "charge_fault_report",
+    "description": "Reports charger faults.",
+    "prompt": "Report broken cable on stall #2 at EVN-BRQ-07."
+  },
+  {
+    "name": "nav_map_update_push",
+    "description": "Pushes latest map updates.",
+    "prompt": "Push Q4 map update to VIN WVG...555 overnight."
+  },
+  {
+    "name": "nav_poi_bulk_upload",
+    "description": "Uploads POIs to vehicles.",
+    "prompt": "Upload 50 dealer POIs across CZ fleet."
+  },
+  {
+    "name": "nav_speed_limit_sync",
+    "description": "Syncs speed limit data.",
+    "prompt": "Sync updated speed limits for D1 motorway."
+  },
+  {
+    "name": "nav_route_restriction_set",
+    "description": "Sets route restrictions.",
+    "prompt": "Restrict heavy trucks from city center routes."
+  },
+  {
+    "name": "nav_voice_pack_switch",
+    "description": "Switches nav voice packs.",
+    "prompt": "Set nav voice to Czech Female on VIN WDD...987."
+  },
+  {
+    "name": "ota_update_campaign",
+    "description": "Creates OTA SW update waves.",
+    "prompt": "Roll out MCU v12.4 to 10% CZ fleet, monitor failures."
+  },
+  {
+    "name": "ota_fail_safe_revert",
+    "description": "Triggers safe SW rollback.",
+    "prompt": "Rollback infotainment to v11.9 for VIN LRW...889."
+  },
+  {
+    "name": "ota_release_notes_publish",
+    "description": "Publishes OTA notes.",
+    "prompt": "Publish v12.4 release notes to owner app."
+  },
+  {
+    "name": "ota_download_window_set",
+    "description": "Sets download time windows.",
+    "prompt": "Allow OTA downloads 01:00–04:00 local time."
+  },
+  {
+    "name": "ota_stage_canary_group",
+    "description": "Stages canary test group.",
+    "prompt": "Stage 50 vehicles in CZ as canary for ADAS patch."
+  },
+  {
+    "name": "diag_obd_read",
+    "description": "Reads OBD DTCs and live data.",
+    "prompt": "Read DTCs and freeze frame for VIN WAU...330."
+  },
+  {
+    "name": "diag_guided_fault_tree",
+    "description": "Runs guided diagnostics.",
+    "prompt": "Start guided diag for P0301 misfire case."
+  },
+  {
+    "name": "diag_service_reset",
+    "description": "Resets service indicators.",
+    "prompt": "Reset oil service reminder for VIN ZFA...777."
+  },
+  {
+    "name": "diag_tech_bulletin_lookup",
+    "description": "Finds TSBs for symptom.",
+    "prompt": "Show TSBs for cold-start rattling 1.5 TSI."
+  },
+  {
+    "name": "diag_remote_session_start",
+    "description": "Starts remote diag session.",
+    "prompt": "Start remote diag to BRQ dealer for VIN WBA...662."
+  },
+  {
+    "name": "safety_homologation_check",
+    "description": "Checks market homologation.",
+    "prompt": "Is 2025 US spec compliant for EU import? List gaps."
+  },
+  {
+    "name": "safety_crash_test_summary",
+    "description": "Summarizes crash test results.",
+    "prompt": "Summarize Euro NCAP results for 2025 model."
+  },
+  {
+    "name": "safety_reg_change_alert",
+    "description": "Alerts on new regulations.",
+    "prompt": "Alert on new UNECE ADAS rules affecting ALC."
+  },
+  {
+    "name": "safety_emissions_report",
+    "description": "Reports WLTP/US EPA emissions.",
+    "prompt": "Report WLTP CO₂ for C-SUV PHEV, MY2025."
+  },
+  {
+    "name": "safety_recall_risk_score",
+    "description": "Scores recall risk by data.",
+    "prompt": "Score recall risk for fuel pump family FP-2."
+  },
+  {
+    "name": "training_course_assign",
+    "description": "Assigns tech training.",
+    "prompt": "Assign HV safety L2 to all CZ technicians."
+  },
+  {
+    "name": "training_completion_report",
+    "description": "Shows course completion.",
+    "prompt": "Report ADAS calibration course completion by dealer."
+  },
+  {
+    "name": "training_skill_matrix",
+    "description": "Builds technician skill map.",
+    "prompt": "Show skill gaps for EV drivetrain across region."
+  },
+  {
+    "name": "training_exam_schedule",
+    "description": "Schedules certification exams.",
+    "prompt": "Schedule HV L3 exams in Prague on Dec 2."
+  },
+  {
+    "name": "training_microlearning_push",
+    "description": "Pushes bite-size lessons.",
+    "prompt": "Push 5-min video on TPMS relearn to all techs."
+  },
+  {
+    "name": "tire_inventory_sync",
+    "description": "Syncs tire stock and sizes.",
+    "prompt": "Sync winter tire 225/45 R17 stock across BRQ."
+  },
+  {
+    "name": "tire_tpms_id_register",
+    "description": "Registers TPMS sensor IDs.",
+    "prompt": "Register 4 TPMS IDs for VIN WAU...330."
+  },
+  {
+    "name": "tire_rotation_scheduler",
+    "description": "Schedules tire rotations.",
+    "prompt": "Schedule rotation at 15,000 km for VIN VF3...101."
+  },
+  {
+    "name": "tire_wear_analysis",
+    "description": "Analyzes wear and alignment.",
+    "prompt": "Analyze inner shoulder wear on front axle photos."
+  },
+  {
+    "name": "tire_storage_contracts",
+    "description": "Manages seasonal storage.",
+    "prompt": "Create storage contract for 2 sets for customer 9921."
+  },
+  {
+    "name": "body_repair_queue",
+    "description": "Shows body shop queue status.",
+    "prompt": "Show backlog and ETAs for body shop BRQ."
+  },
+  {
+    "name": "body_panel_match",
+    "description": "Checks panel part matches.",
+    "prompt": "Confirm left fender PN for VIN TMB...123, blue LF5U."
+  },
+  {
+    "name": "body_frame_measure_report",
+    "description": "Reports frame measurements.",
+    "prompt": "Export frame measure report after pull for VIN VSS...444."
+  },
+  {
+    "name": "body_rust_treatment_plan",
+    "description": "Creates rust repair plans.",
+    "prompt": "Propose plan for rear arch rust Stage 2."
+  },
+  {
+    "name": "body_glass_calibration_link",
+    "description": "Links glass to ADAS calib.",
+    "prompt": "After windshield replace, queue camera calibration."
+  },
+  {
+    "name": "paint_code_lookup",
+    "description": "Finds exact paint codes.",
+    "prompt": "Lookup paint code LF5U for 2019 Octavia."
+  },
+  {
+    "name": "paint_mix_recipe",
+    "description": "Generates paint mix recipe.",
+    "prompt": "Create mix recipe for KR6 Pearl White, 0.5L."
+  },
+  {
+    "name": "paint_booth_schedule",
+    "description": "Schedules paint booth slots.",
+    "prompt": "Book booth B at 13:00 for bumper respray."
+  },
+  {
+    "name": "paint_defect_matrix",
+    "description": "Maps paint defects to fixes.",
+    "prompt": "Recommend fix for solvent pop on hood."
+  },
+  {
+    "name": "paint_cost_estimator",
+    "description": "Estimates paint job cost.",
+    "prompt": "Estimate cost for full panel respray left door."
+  },
+  {
+    "name": "test_road_test_plan",
+    "description": "Creates post-repair road tests.",
+    "prompt": "Plan road test 15 km, mixed roads, brake pulsation."
+  },
+  {
+    "name": "test_dynometer_booking",
+    "description": "Books chassis dyno time.",
+    "prompt": "Book dyno 30 min for VIN WBA...662 tomorrow 11:00."
+  },
+  {
+    "name": "test_noise_vibration_log",
+    "description": "Logs NVH measurements.",
+    "prompt": "Log NVH for cabin boom 80–110 km/h case."
+  },
+  {
+    "name": "test_emissions_cycle_run",
+    "description": "Runs emissions test cycles.",
+    "prompt": "Run WLTP Class 3 for VIN SJN...778 and export CSV."
+  },
+  {
+    "name": "test_brake_bleed_sequence",
+    "description": "Issues brake bleed steps.",
+    "prompt": "Provide ABS bleed sequence for MQB platform."
+  },
+  {
+    "name": "plant_handover_readiness",
+    "description": "Checks SOP handover tasks.",
+    "prompt": "Check SOP handover readiness for Project Falcon."
+  },
+  {
+    "name": "plant_shift_staffing",
+    "description": "Sets shift staffing targets.",
+    "prompt": "Set night shift staffing +10% for Trim Area."
+  },
+  {
+    "name": "plant_energy_usage",
+    "description": "Reports plant energy KPIs.",
+    "prompt": "Report October electricity and gas usage Plant CZ."
+  },
+  {
+    "name": "plant_safety_incident_log",
+    "description": "Logs safety incidents.",
+    "prompt": "Log near-miss at Press Shop, no injury, 11:35."
+  },
+  {
+    "name": "plant_visitor_pass",
+    "description": "Issues visitor passes.",
+    "prompt": "Issue visitor pass for supplier ABC, Nov 20, 09:00."
+  }
+]
