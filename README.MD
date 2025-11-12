@@ -1,8 +1,14 @@
+# LangChain + OCI Generative AI 
+Small, focused Python scripts that exercise the LangChain OCI chat connector. Each example defaults to openai.gpt-4o but keeps alternative model IDs commented so you can swap providers quickly.
+
+
 # AI Orchestration Examples
 
 This repository collects small projects that explore orchestration patterns for large-language-model agents. 
 The main active area is `experiments/llm-tooling-benchmarks`, which measures how different LLMs perform when they
 must autonomously call tools end to end.
+
+If you want to see how LangChain integrates with OCI Generative AI (including model switching, tool-calling math, and structured-output examples), check the quick-start scripts documented in `langchain/README.md`.
 
 ## LLM Tooling Benchmarks Overview
 
