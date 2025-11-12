@@ -98,6 +98,8 @@ def load_merge1_summaries(data_dir: Path) -> Dict[str, Dict[int, Dict[str, float
                 metrics.get("avg_input_tokens", 0.0),
                 metrics.get("avg_output_tokens", 0.0),
             )
+            if "openai.gpt-4o" in model:
+                print(f"Cost: {cost}, size: {size}, models: {data.get("model name")}, in: {metrics.get("avg_input_tokens", 0.0)}, out: {metrics.get("avg_output_tokens", 0.0)}")
             metrics.setdefault("avg_cost_usd", cost)
 
         if not metrics:

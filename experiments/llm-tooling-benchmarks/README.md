@@ -23,7 +23,7 @@ and plots every model’s trend line on the Y-axis metric.
 
   Captures how verbose responses become. Taller curves imply chatty models (higher output token spend); flatter ones stay concise while still producing tool calls.
 
-<img src="charts/merge1/avg_cost_usd.png" alt="Average cost (USD)" width="50%">  
+<img src="charts/merge1/avg_cost_usd_old.png" alt="Average cost (USD)" width="50%">  
   Combines the token counts with `prices.py` to estimate dollars per prompt. This is the headline metric for comparing total spend across models.
 
 <img src="charts/merge1/avg_time.png" alt="Average time" width="50%">  
