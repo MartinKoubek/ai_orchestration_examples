@@ -1,6 +1,8 @@
 # LangChain + OCI Generative AI 
 Small, focused Python scripts that exercise the LangChain OCI chat connector. Each example defaults to openai.gpt-4o but keeps alternative model IDs commented so you can swap providers quickly.
 
+# LangGraph
+This repository demonstrates how to leverage LangGraph for simple tool-calling agents
 
 # AI Orchestration Examples
 
